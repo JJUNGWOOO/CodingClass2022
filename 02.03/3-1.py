@@ -7,6 +7,6 @@ def num(k,n):
       result+=num(k-1,i)
     return result
 k,n=map(int,input("층수 호수 써주세욧!!: ").split())
-print(num(k,n))
+print(k,"층",n,"호에는",num(k,n),"명이 삽니다")
 
 
